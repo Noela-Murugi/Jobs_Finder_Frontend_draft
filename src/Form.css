@@ -131,3 +131,12 @@
   background: #171a2b;
 }
 
+.jobs-title label,
+.jobs-location label,
+.jobs-deadline label,
+.jobs-requirements label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
