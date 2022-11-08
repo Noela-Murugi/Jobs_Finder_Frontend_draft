@@ -34,7 +34,12 @@ function Form({ setData, data }) {
         <div className="containerA">
           <h1>Jobs Finder</h1>
         </div>
-        
+        <div className="containerB">
+          <header>
+            <h1>Post a New Job </h1>
+            <div></div>
+           
+        </div>
       </div>
     </div>
   );
