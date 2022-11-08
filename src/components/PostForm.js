@@ -107,7 +107,7 @@ function Form({ setData, data }) {
               >
                 Back
               </button>
-              <button id="next" onClick={responseEvent}>
+              <button id="post" onClick={responseEvent}>
                 Post
               </button>
             </div>
