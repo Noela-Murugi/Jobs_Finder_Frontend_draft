@@ -122,3 +122,12 @@
   background: #171a2b;
   color: white;
 }
+.containerB footer #post {
+  background: #4FAA83;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.containerB footer #post:hover {
+  background: #171a2b;
+}
+
