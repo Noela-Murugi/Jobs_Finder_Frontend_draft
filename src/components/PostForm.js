@@ -79,7 +79,28 @@ function Form({ setData, data }) {
               </div>
             </div>
 
-           
+            <div className="jobs-requirements">
+              <label htmlFor="jobs-requirements-0-25">Job Requirements</label>
+              <div className="radio-container">
+                <input value={requirements} placeholder="Job Requirements" onChange={(e) => {
+                    setRequirements(e.target.value);
+                  }}
+                  type="text"
+                  required
+                />
+              </div>
+              <label htmlFor="jobs-requirements-0-25">Job Description</label>
+              <div className="radio-container">
+                <input type="text" value={description}
+                onChange={(e) => { setDescription(e.target.value);
+                 }}
+                  placeholder="Job Description"
+                  required
+                />
+              </div>
+            </div>
+          </header>
+          
         </div>
       </div>
     </div>
