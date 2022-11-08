@@ -49,7 +49,37 @@ function Form({ setData, data }) {
                 ></input>
               </div>
 
-              
+              <div className="jobs-location">
+                <label htmlFor="j-location">Location</label>
+                <input id="j-location" placeholder="Location..." type="text" value={location}
+                  onChange={(e) => {
+                    setLocation(e.target.value);
+                  }}
+                  required
+                ></input>
+              </div>
+            </div>
+            <div className="set">
+              <div className="jobs-location">
+                <label htmlFor="j-location">Salary Range</label>
+                <input id="j-salary" placeholder="Salary range..." type="number" value={salary}
+                 onChange={(e) => {
+                    setSalary(e.target.value);
+                  }}
+                  required
+                ></input>
+              </div>
+              <div className="jobs-deadline">
+                <label htmlFor="jobs-deadline">Application Deadline</label>
+                <input id="jobs-deadline" type="date" value={date} onChange={(e) => {
+                    setDeadline(e.target.value);
+                  }}
+                  required
+                ></input>
+              </div>
+            </div>
+
+           
         </div>
       </div>
     </div>
