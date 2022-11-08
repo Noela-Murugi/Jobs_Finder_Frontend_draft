@@ -38,7 +38,18 @@ function Form({ setData, data }) {
           <header>
             <h1>Post a New Job </h1>
             <div></div>
-           
+            <div className="set">
+              <div className="jobs-title">
+                <label htmlFor="j-title">Job Title</label>
+                <input id="j-title" placeholder="Title..." type="text" value={jobTitle}
+                  onChange={(e) => {
+                    setTitle(e.target.value);
+                  }}
+                  required
+                ></input>
+              </div>
+
+              
         </div>
       </div>
     </div>
