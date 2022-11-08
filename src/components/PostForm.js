@@ -29,7 +29,14 @@ function Form({ setData, data }) {
   };
 
   return (
-    
+    <div className="form">
+      <div className="jobs-container">
+        <div className="containerA">
+          <h1>Jobs Finder</h1>
+        </div>
+        
+      </div>
+    </div>
   );
 }
 export default Form;
