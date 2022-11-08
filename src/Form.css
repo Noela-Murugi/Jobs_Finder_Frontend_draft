@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  align-items: center;
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100vh;
+  justify-items: center;
+  width: 100v;
+  margin-top: -50px;
+}
+
+
+.jobs-container {
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 900px;
+}
+
+.containerA {
+  overflow: hidden;
+  padding: 40px 0 0 0;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8am9icyUyMGZpbmRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  text-align: center;
+  /* padding-top:200px; */
+  width: 300px;
+  margin-bottom: 68px;
+}
+.containerA h1 {
+  color: white;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+
