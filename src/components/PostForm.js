@@ -100,7 +100,18 @@ function Form({ setData, data }) {
               </div>
             </div>
           </header>
-          
+          <footer>
+            <div className="set">
+              <button id="back" onClick={() => { navigate("/");
+              }}
+              >
+                Back
+              </button>
+              <button id="next" onClick={responseEvent}>
+                Post
+              </button>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
