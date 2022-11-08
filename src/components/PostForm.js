@@ -28,5 +28,8 @@ function Form({ setData, data }) {
     }, 2000);
   };
 
-  
+  return (
+    
+  );
+}
 export default Form;
