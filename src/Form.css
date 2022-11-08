@@ -114,3 +114,11 @@
   border-radius: 19px;
   font-family: "Montserrat", sans-serif;
 }
+.containerB footer #back {
+  background: #fff;
+  transition: 0.2s all ease-in-out;
+}
+.containerB footer #back:hover {
+  background: #171a2b;
+  color: white;
+}
