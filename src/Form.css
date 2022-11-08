@@ -43,4 +43,34 @@
   font-size: 24px;
 }
 
+.containerB {
+  background: #4FAA83;
+  display: grid;
+  grid-template-areas: "." ".";
+  width: 500px;
+}
+.containerB h1:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 28px;
+  font-weight: 600;
+}
+.containerB .set {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.containerB input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+}
+.containerB input,
+.containerB label {
+  color: rgba(0, 0, 0, 0.8);
+}
+.containerB header {
+  padding: 40px;
+}
 
