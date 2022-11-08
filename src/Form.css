@@ -73,4 +73,31 @@
 .containerB header {
   padding: 40px;
 }
+.containerB label,
+.containerB input,
+.containerB .pets-photo {
+  width: 176px;
+}
+.containerB .pets-photo {
+  align-items: center;
+  display: grid;
+  grid-template-areas: ". .";
+}
+.containerB .pets-photo button {
+  border: none;
+  border-radius: 50%;
+  height: 38px;
+  margin-right: 10px;
+  outline: none;
+  width: 38px;
+}
+.containerB .pets-photo button i {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+.containerB .jobs-requirements .radio-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
