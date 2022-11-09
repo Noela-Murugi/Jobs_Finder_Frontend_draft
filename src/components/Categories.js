@@ -13,7 +13,18 @@ const Categories = () => {
 
   return (
 
-   
+    <div >
+      <div className='categories-input'>
+      <input
+      type={'text'}
+      placeholder={'Search'}
+      value={search}
+      onChange={(e) => setSearch(e.target.value)} />
+      </div>
+
+
+
+     </div>
   )
 }
 
