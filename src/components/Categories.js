@@ -11,7 +11,10 @@ const Categories = () => {
   const filteredList =
   jobs.lists.filter(list => list.title.toLowerCase().includes(search.toLowerCase()))
 
-  
+  return (
+
+   
+  )
 }
 
 export default Categories
