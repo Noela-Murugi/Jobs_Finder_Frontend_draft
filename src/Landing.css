@@ -1,3 +1,13 @@
 * {
   background-color: #e1f6ea;
 }
+
+h1 {
+  text-align: left;
+  font-family: 65px Poppins, sans-serif;
+  font-weight: bolder;
+  font-size: 65px;
+  line-height: 70px;
+  margin: 0px, 0px, 8px;
+  margin-top: 75px;
+}
