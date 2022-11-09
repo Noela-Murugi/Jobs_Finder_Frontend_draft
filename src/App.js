@@ -7,6 +7,8 @@ import jobs from './components/Jobs.js'
 import './categories.css';
 import "./index.css";
 
+function App() {
 
+}
 
 export default App;
