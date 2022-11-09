@@ -65,4 +65,22 @@
 
 /* categorieslist */
 
+.categoriesitem{
+    margin: 25px;
+
+}
+
+.categoriesitem img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    float: left;
+    margin: 30px;
+}
+.jobs img::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
