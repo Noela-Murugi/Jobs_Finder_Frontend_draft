@@ -21,6 +21,13 @@ const CategoriesItem = ({ jobs }) => {
               <br></br>
             </div>
 
+              <ul className='expand-div'>
+              <h3>Location : </h3><p>{list.location}</p>
+              <h3>Minimum Requirements : </h3><p>{list.requirements}</p>
+              <h3>Application Deadline : </h3><p>{list.deadline}</p>
+              <h3>Job Description : </h3><>{list.description}</>
+              <h3>Salary : </h3><p id='salary'>Ksh {list.salary}</p>
+              </ul>
 
           </div>
         </div>
