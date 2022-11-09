@@ -1,0 +1,32 @@
+/*navbar styling*/
+.navbar {
+  position: relative;
+  width: 100%;
+  padding: 15px -50px;
+  background-color: rgb(20, 220, 143);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 650;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
