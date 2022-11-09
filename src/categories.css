@@ -83,4 +83,17 @@
     display: table;
 }
 
+.categoriesitem h1{
+    text-transform: uppercase;
+    margin: 20px;
+    padding-top: 150px;
+}
+
+.categoriesitem p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-transform: capitalize;
+
+}
+
 
