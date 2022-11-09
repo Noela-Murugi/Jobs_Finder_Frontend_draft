@@ -7,7 +7,9 @@ const CategoriesItem = ({ jobs }) => {
   console.log(params)
   console.log(jobs)
 
-  
+  return (
+
+  )
 }
 
 export default CategoriesItem
