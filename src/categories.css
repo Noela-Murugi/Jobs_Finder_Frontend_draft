@@ -30,4 +30,17 @@
     text-decoration: none;
     color: black;
 }
+.categories a:hover{
+    color: #4FAA83;
+}
+.categories img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 16%;
+    height: 16%;
+    margin-bottom: 5px;
+}
+.categories h3{
+    text-transform: capitalize;
+}
 
