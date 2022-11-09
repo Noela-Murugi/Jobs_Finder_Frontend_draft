@@ -32,7 +32,16 @@ export const jobs = {
             "description": "Is the capability of a machine to imitate intelligent human behavior",
             "salary": 100000
         },
-
+        {
+            "id": 4,
+            "image": "https://cdn-icons-png.flaticon.com/512/2936/2936630.png",
+            "title": "Networking",
+            "location": "Eldoret",
+            "deadline": "24/09/2022",
+            "requirements": "Secondary graduate",
+            "description": "Is the process of making connections and building relationships",
+            "salary": 60000
+        },
     ]
   }
 
