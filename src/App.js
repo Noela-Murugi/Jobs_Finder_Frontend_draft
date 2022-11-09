@@ -9,7 +9,17 @@ import "./index.css";
 
 function App() {
   return (
+    <div className="App">
+              <Categories />
+{/* to be updated */}
+        <Routes>
 
+         <Route exact='true' path='/categories' element={<Categories />} ></Route>
+          <Route path="/categoriesitem/:listId" element={<CategoriesList jobs={jobs.lists} />}></Route>
+       </Routes>
+
+
+    </div>
   );
 }
 
