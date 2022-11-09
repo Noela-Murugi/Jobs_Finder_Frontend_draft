@@ -21,3 +21,11 @@ h3 {
   text-align: left;
   color: #616161d5;
 }
+
+img {
+  display: -webkit-box;
+  margin-right: 200px;
+  float: right;
+  margin-top: -300px;
+  width: 40%;
+}
