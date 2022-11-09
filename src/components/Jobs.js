@@ -22,7 +22,17 @@ export const jobs = {
             "description": "Is the work involved in developing a website for the Internet or an intranet.",
             "salary": 90500,
         },
- 
+        {
+            "id": 3,
+            "image": "https://cdn-icons-png.flaticon.com/512/2936/2936630.png",
+            "title": "Machine Learning",
+            "location": "Mombasa",
+            "deadline": "21/09/2022",
+            "requirements": "Computer Science graduate",
+            "description": "Is the capability of a machine to imitate intelligent human behavior",
+            "salary": 100000
+        },
+
     ]
   }
 
