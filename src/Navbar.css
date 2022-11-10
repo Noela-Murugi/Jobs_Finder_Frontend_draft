@@ -1,0 +1,7 @@
+.navbar {
+  position: relative;
+  width: 100%;
+  padding: 15px -50px;
+  background-color: rgb(20, 220, 143);
+  font-family: "Ubuntu", sans-serif;
+}
