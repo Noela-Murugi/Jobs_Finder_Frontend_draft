@@ -9,12 +9,13 @@ function Navbar() {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#find jobs">Find jobs</a>
+          <a href="#about">About us</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#post job">Post a job</a>
         </li>
       </ul>
     </nav>
   );
 }
+export default Navbar;
