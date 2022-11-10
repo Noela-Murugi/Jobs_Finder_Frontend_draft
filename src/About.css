@@ -7,4 +7,5 @@
 img {
   display: -webkit-box;
   margin-right: 200px;
+  float: right;
 }
