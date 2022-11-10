@@ -4,3 +4,6 @@
   padding: 50px 100;
   margin-left: 3px;
 }
+img {
+  display: -webkit-box;
+}
