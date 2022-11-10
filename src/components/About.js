@@ -31,6 +31,7 @@ function About() {
           experienced veterans.
           <br /> Find a job, at the comfort of your home.
         </p>
+        <img src="./images/happy.png" />
       </div>
     </>
   );
