@@ -60,7 +60,20 @@ a.active,a:hover{
   transition: 3s;
   text-decoration: none;
 
-
 }
 
-
+.navbuttn{
+  background-color: #4FAA83;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin-top:-26px; */
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  /* transition: 3s; */
+  float: right;
+}
