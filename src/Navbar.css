@@ -27,3 +27,9 @@
   margin-left: 25px;
   margin-right: 50px;
 }
+
+button {
+  border-radius: 8px;
+  background-color: rgba(20, 220, 143, 0.675);
+  color: #fff;
+}

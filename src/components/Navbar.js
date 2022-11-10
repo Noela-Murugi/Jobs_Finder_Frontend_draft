@@ -13,7 +13,9 @@ function Navbar() {
           <a href="#about">About us</a>
         </li>
         <li>
-          <a href="#post job">Post a job</a>
+          <button>
+            <a href="#post job">Post a job</a>
+          </button>
         </li>
       </ul>
     </nav>
