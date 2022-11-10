@@ -4,4 +4,13 @@
   padding: 15px -50px;
   background-color: rgb(20, 220, 143);
   font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 450;
 }
