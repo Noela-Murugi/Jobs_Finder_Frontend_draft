@@ -4,6 +4,17 @@ function Navbar() {
       <div class="logo">
         <a href="#">Job Finder!</a>
       </div>
+      <ul class="menu">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#find jobs">Find jobs</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+      </ul>
     </nav>
   );
 }
