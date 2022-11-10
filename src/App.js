@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import JobList from './JobList';
+import JobList from './components/JobList';
 
 function App() {
   return (
