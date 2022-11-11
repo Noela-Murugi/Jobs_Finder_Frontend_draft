@@ -1,0 +1,134 @@
+/* jobs List */
+
+/* @media (max-width: 1480px) { */
+.categories{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 25px;
+
+
+}
+.categories li{
+    list-style: none;
+    background-color:white;
+    margin: 30px;
+    /* padding: 20px; */
+    border-radius: 10px;
+    /* margin-left: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 180px;
+    box-shadow: 0 4px 8px 0 #4FAA83;
+
+
+
+}
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+.categories a:hover{
+    color: #4FAA83;
+}
+.categories img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 16%;
+    height: 16%;
+    margin-bottom: 5px;
+}
+.categories h3{
+    text-transform: capitalize;
+}
+.categories-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.categories-input input{
+    width: 250px;
+    align-items: center;
+    height: 30px;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: none;
+    margin-bottom: 15px;
+}
+
+/* categorieslist */
+
+.categoriesitem{
+    margin: 25px;
+
+}
+
+.categoriesitem img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    float: left;
+    margin: 30px;
+}
+.jobs img::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.categoriesitem h1{
+    text-transform: uppercase;
+    margin: 20px;
+    padding-top: 150px;
+}
+
+.categoriesitem p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-transform: capitalize;
+
+}
+
+
+#salary{
+    font-weight:700;
+    font-size: 20px;
+    background-color: #4FAA83;
+    color: #fff;
+    width: 54%;
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.details-categories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #4FAA83;
+    background-color: white;
+}
+
+.details-categories h3{
+    text-align: left;
+}
+
+.expand-div{
+    width: 500px;
+    margin-left: 100px;
+}
+/* } */
